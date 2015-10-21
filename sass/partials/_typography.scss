@@ -1,0 +1,146 @@
+$heading-font-weight:bold;
+$heading-font-family:$font-1;
+$heading-font-style:normal;
+$heading-margin:10px 0px 20px;
+
+$heading-alt-font-weight:normal;
+$heading-alt-font-style:italic;
+$heading-alt-font-family:$font-2;
+$heading-alt-margin:10px 0px;
+
+$paragraph-font-weight:normal;
+$paragraph-font-style:normal;
+$paragraph-font-family:$font-1;
+$paragraph-margin:10px 0px 20px;
+
+$paragraph-alt-font-weight:normal;
+$paragraph-alt-font-style:italic;
+$paragraph-alt-font-family:$font-2;
+$paragraph-alt-margin:10px 0px;
+
+
+%heading{
+	font-weight:$heading-font-weight;
+	font-family:$heading-font-family;
+	margin:$heading-margin;
+	font-style:$heading-font-style;
+}
+
+%alt-heading{
+	font-weight:$heading-alt-font-weight;
+	font-family:$heading-alt-font-family;
+	margin:$heading-alt-margin;
+	font-style:$heading-alt-font-style;
+}
+
+%paragraph{
+	font-weight:$paragraph-font-weight;
+	font-family:$paragraph-font-family;
+	margin:$paragraph-margin;
+	font-style:$paragraph-font-style;
+}
+
+%alt-paragraph{
+	font-weight:$paragraph-alt-font-weight;
+	font-family:$paragraph-alt-font-family;
+	margin:$paragraph-alt-margin;
+	font-style:$paragraph-alt-font-style;
+}
+
+.text-center{
+	text-align:center;
+}
+
+.text-left{
+	text-align:left;
+}
+
+.text-right{
+	text-align:right;
+}
+
+.text-italic{
+	font-style:italic;
+}
+
+.text-bold{
+	font-weight:bold;
+}
+
+//headings
+h1,.heading-1{
+	@extend %heading;
+	@include CreateTypography(32px,40px);
+}
+
+h2,.heading-2{
+	@extend %heading;
+	@include CreateTypography(26px,30px);
+}
+
+h3,.heading-3{
+	@extend %heading;
+	@include CreateTypography(22px,30px);
+}
+
+h4,.heading-4{
+	@extend %heading;
+	@include CreateTypography(18px,22px);
+}
+
+h5,.heading-5{
+	@extend %heading;
+	@include CreateTypography(16px,19px);
+}
+
+//paragraphs
+p,.paragraph-1{
+	@extend %paragraph;
+	@include CreateTypography(18px,25px);
+}
+
+.paragraph-2{
+	@extend %paragraph;
+	@include CreateTypography(16px,20px);
+}
+
+.paragraph-3{
+	@extend %paragraph;
+	@include CreateTypography(14px,20px);
+}
+
+
+@media(min-width:$screen-sm-min){
+	h1,.heading-1{
+		@include CreateTypography(48px,57px);
+	}
+
+	h2,.heading-2{
+		@include CreateTypography(36px,43px);
+	}
+
+	h3,.heading-3{
+		@include CreateTypography(28px,34px);
+	}
+
+	h4,.heading-4{
+		@include CreateTypography(22px,26px);
+	}
+
+	h5,.heading-5{
+		@include CreateTypography(16px,19px);
+	}
+
+	//paragraphs
+	p,.paragraph-1{
+		@include CreateTypography(18px,25px);
+	}
+
+	.paragraph-2{
+		@include CreateTypography(16px,20px);
+	}
+
+	.paragraph-3{
+		@include CreateTypography(14px,20px);
+	}
+}

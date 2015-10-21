@@ -1,0 +1,53 @@
+//color palette
+$color-1:#ccc;
+$color-2:#ccc;
+$color-3:#ccc;
+$color-4:#ccc;
+$color-5:#ccc;
+$color-6:#ccc;
+$color-7:#ccc;
+$color-8:#ccc;
+$color-9:#ccc;
+$color-10:#ccc;
+$color-11:#ccc;
+$color-12:#ccc;
+$color-13:#ccc;
+$color-14:#ccc;
+
+$colors-list:$color-1 $color-2 $color-3 $color-4 $color-5 $color-6 $color-7 $color-8 $color-9 $color-10 $color-11 $color-12 $color-13 $color-14;
+
+$color-black:black;
+$color-white:white;
+
+//grayscale
+$color-gray-0:lighten(black,0%); //black
+$color-gray-1:lighten(black,10%);
+$color-gray-2:lighten(black,20%);
+$color-gray-3:lighten(black,30%);
+$color-gray-4:lighten(black,40%);
+$color-gray-5:lighten(black,50%);
+$color-gray-6:lighten(black,60%);
+$color-gray-7:lighten(black,70%);
+$color-gray-8:lighten(black,80%);
+$color-gray-9:lighten(black,90%);
+$color-gray-10:lighten(black,100%); //white
+
+$colors-gray-list:$color-gray-0 $color-gray-1 $color-gray-2 $color-gray-3 $color-gray-4 $color-gray-5 $color-gray-6 $color-gray-7 $color-gray-8 $color-gray-9 $color-gray-10;
+
+//font families
+$font-1:serif;
+$font-2:sans-serif;
+$font-3:verdana; 
+
+$base-font-size:16px;
+$base-fg-color:$color-1;
+$base-bg-color:$color-2;
+
+//screen sizes
+$screen-sm-min:768px;
+$screen-md-min:992px;
+$screen-lg-min:1200px;
+
+//grid configurations
+$grid-columns:12;
+$grid-gutter:30px;

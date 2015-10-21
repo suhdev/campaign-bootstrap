@@ -1,0 +1,215 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 1, ../../sass/partials/_base.scss */
+html, body {
+  font-size: 16px;
+  color: #ccc;
+  background-color: #ccc;
+  box-sizing: border-box;
+}
+
+/* line 22, ../../sass/partials/_typography.scss */
+h1, .heading-1, h2, .heading-2, h3, .heading-3, h4, .heading-4, h5, .heading-5 {
+  font-weight: bold;
+  font-family: serif;
+  margin: 10px 0px 20px;
+  font-style: normal;
+}
+
+/* line 36, ../../sass/partials/_typography.scss */
+p, .paragraph-1, .paragraph-2, .paragraph-3 {
+  font-weight: normal;
+  font-family: serif;
+  margin: 10px 0px 20px;
+  font-style: normal;
+}
+
+/* line 50, ../../sass/partials/_typography.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 54, ../../sass/partials/_typography.scss */
+.text-left {
+  text-align: left;
+}
+
+/* line 58, ../../sass/partials/_typography.scss */
+.text-right {
+  text-align: right;
+}
+
+/* line 62, ../../sass/partials/_typography.scss */
+.text-italic {
+  font-style: italic;
+}
+
+/* line 66, ../../sass/partials/_typography.scss */
+.text-bold {
+  font-weight: bold;
+}
+
+/* line 71, ../../sass/partials/_typography.scss */
+h1, .heading-1 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+/* line 76, ../../sass/partials/_typography.scss */
+h2, .heading-2 {
+  font-size: 1.625rem;
+  line-height: 1.875rem;
+}
+
+/* line 81, ../../sass/partials/_typography.scss */
+h3, .heading-3 {
+  font-size: 1.375rem;
+  line-height: 1.875rem;
+}
+
+/* line 86, ../../sass/partials/_typography.scss */
+h4, .heading-4 {
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+}
+
+/* line 91, ../../sass/partials/_typography.scss */
+h5, .heading-5 {
+  font-size: 1rem;
+  line-height: 1.1875rem;
+}
+
+/* line 97, ../../sass/partials/_typography.scss */
+p, .paragraph-1 {
+  font-size: 1.125rem;
+  line-height: 1.5625rem;
+}
+
+/* line 102, ../../sass/partials/_typography.scss */
+.paragraph-2 {
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+
+/* line 107, ../../sass/partials/_typography.scss */
+.paragraph-3 {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  /* line 114, ../../sass/partials/_typography.scss */
+  h1, .heading-1 {
+    font-size: 3rem;
+    line-height: 3.5625rem;
+  }
+
+  /* line 118, ../../sass/partials/_typography.scss */
+  h2, .heading-2 {
+    font-size: 2.25rem;
+    line-height: 2.6875rem;
+  }
+
+  /* line 122, ../../sass/partials/_typography.scss */
+  h3, .heading-3 {
+    font-size: 1.75rem;
+    line-height: 2.125rem;
+  }
+
+  /* line 126, ../../sass/partials/_typography.scss */
+  h4, .heading-4 {
+    font-size: 1.375rem;
+    line-height: 1.625rem;
+  }
+
+  /* line 130, ../../sass/partials/_typography.scss */
+  h5, .heading-5 {
+    font-size: 1rem;
+    line-height: 1.1875rem;
+  }
+
+  /* line 135, ../../sass/partials/_typography.scss */
+  p, .paragraph-1 {
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
+  }
+
+  /* line 139, ../../sass/partials/_typography.scss */
+  .paragraph-2 {
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+
+  /* line 143, ../../sass/partials/_typography.scss */
+  .paragraph-3 {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+}

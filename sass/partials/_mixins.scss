@@ -1,0 +1,4 @@
+@mixin CreateTypography($font-size,$line-height){
+	font-size:PixelToEm($font-size);
+	line-height:PixelToEm($line-height);
+}
